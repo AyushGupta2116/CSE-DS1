@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My second program</title>
+</head>
+<body>
+  <h2>Unordered list</h2>
+  <ul>
+  <li>cherry</li>
+  <li>pineapple</li>
+  <li>orange</li>
+  <li>mango</li>
+</ul>
+ <ul>
+  <h2>Nested list</h2>
+  <li>Fruits
+    <ul>
+      <li>cherry</li>
+      <li>Banana</li>
+      <li>pineapple</li>
+    </ul>
+  </li>
+  <li>Vegetables
+    <ul>
+      <li>spinach</li>
+      <li>onion</li>
+      <li>potato</li>
+    </ul>
+  </li>
+</ul>
+
+</body>
+</html>
