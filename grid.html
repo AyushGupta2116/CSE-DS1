@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+      
+        body {
+            font-family: Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            margin: 0;
+            background-color: rgb(234, 229, 229);
+        }
+
+        
+        .pdt-grid {
+            display: grid;
+            
+            grid-template-columns: 300px 300px 300px 300px;
+            gap: 20px; 
+            max-width: 1260px;
+            margin: 0 auto; 
+            padding: 20px;
+        }
+
+        
+        .pdt-card {
+            background-color: rgb(82, 79, 79);
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            overflow: hidden; 
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            
+        }
+
+        .pdt-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 180px; 
+            
+        }
+
+        .product-info {
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .product-name {
+            font-size: 18px; /* Fixed font size */
+            color: pink;
+            margin: 0 0 5px 0;
+        }
+
+        .pdt-rating {
+            color: rgb(82, 79, 79);
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .pdt-description {
+            color: #525050;
+            font-size: 14px;
+            margin-bottom: 15px;
+            flex-grow: 1;
+        }
+
+        .pdt-price {
+            font-size: 22px;
+            color: #dc3545;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .add-to-cart {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 25px; /* Fixed padding */
+            border-radius: 8px;
+            font-size: 16px;
+            transition: background-color 0.2s;
+            text-transform: uppercase;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="pdt-grid">
+
+        <div class="pdt-card">
+            <div class="pdt-info">
+                <h3 class="pdt-name">Acme Wireless Headphones</h3>
+                <p class="pdt-rating">⭐⭐⭐⭐ (4.0)</p>
+                <p class="pdt-description,color:white">20-hour battery life.</p>
+                <p class="pdt-price">$200</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="pdt-card">
+            <div class="pdt-info">
+                <h3 class="product-name">Elite Fitness Tracker</h3>
+                <p class="product-rating"> (4.5)</p>
+                <p class="product-description,color:white"> heart rate, and sleep.</p>
+                <p class="product-price">4950</p>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="pdt-card">
+            <div class="pdt-info">
+                <h3 class="pdt-name">Organic Coffee Beans (1lb)</h3>
+                <p class="pdt-rating">(3.5)</p>
+                <p class="pdt-description,color:white">Medium roast</p>
+                <p class="Pdt-price">1200</p>
+                <button class="add-to-cart">View Details</button>
+            </div>
+        </div>
+
+        <div class="pdt-card">
+            <div class="pdt-info">
+                <h3 class="pdt-name">Portable Power Bank</h3>
+                <p class="pdt-rating">⭐⭐⭐⭐⭐ (4.9)</p>
+                <p class="pdt-description,color:white">10,000mAh capacity</p>
+                <p class="pdt-price">2390</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
